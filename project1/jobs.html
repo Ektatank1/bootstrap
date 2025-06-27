@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <nav
+        class="navbar navbar-expand-sm navbar-dark text-white bg-dark"
+    >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="dash.html">Hii, NyLin</a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="employees.html" aria-current="page"
+                            >Employees
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="jobs.html">Jobs</a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Search"
+                    />
+                    <button
+                        class="btn btn-success my-2 btn-sm my-sm-0"
+                        type="submit"
+                    >
+                    
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </button>
+
+                    
+                    <button
+                        class="btn btn-warning mx-2 btn-sm my-sm-0"
+                        type="submit"
+                    >
+                            Logout                    
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="container-fluid bg-light p-4">
+            <div class="row">
+                <div class="col col-md-3 my-md-0 my-5">
+                    <ul class="list-group list-group">
+                        <li class="list-group-item active">Employee Data</li>
+                        <li class="list-group-item"><a href="#">Add Employee</a></li>
+                        <li class="list-group-item disabled"><a href="#">View All Employee</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col col-md-9 my-md-0 my-5">
+                    <div class="table-responsive">
+                        <table
+                            class="table table-primary table-sm text-center " >
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Job Name</th>
+                                    <th scope="col">Details</th>
+                                    <th scope="col">Edit</th>
+                                    <th scope="col">Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td>Graphic Designer</td>
+                                     <td><button class="btn btn-info px-5 btn-sm">Details</button></td>
+                                    <td><button class="btn btn-warning px-5 btn-sm">Edit</button></td>
+                                    <td><button class="btn btn-danger px-5 btn-sm">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">2</td>
+                                    <td>Web Designer</td>
+                                     <td><button class="btn btn-info px-5 btn-sm">Details</button></td>
+                                    <td><button class="btn btn-warning px-5 btn-sm">Edit</button></td>
+                                    <td><button class="btn btn-danger px-5 btn-sm">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td>Web Developer</td>
+                                     <td><button class="btn btn-info px-5 btn-sm">Details</button></td>
+                                    <td><button class="btn btn-warning px-5 btn-sm">Edit</button></td>
+                                    <td><button class="btn btn-danger px-5 btn-sm">Delete</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js" integrity="sha512-j12pXc2gXZL/JZw5Mhi6LC7lkiXL0e2h+9ZWpqhniz0DkDrO01VNlBrG3LkPBn6DgG2b8CDjzJT+lxfocsS1Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    
+</body>
+</html>

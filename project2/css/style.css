@@ -1,0 +1,11 @@
+.navbar
+{
+    top:0;  
+    position:fixed;
+    z-index: 1;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
